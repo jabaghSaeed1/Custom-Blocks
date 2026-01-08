@@ -1,0 +1,21 @@
+.wp-block-create-block-my-first-block.is-animated {
+	animation: fadeUp 0.6s ease-out both;
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-create-block-my-first-block.is-animated {
+		animation: none;
+	}
+}
