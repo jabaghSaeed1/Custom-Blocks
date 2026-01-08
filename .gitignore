@@ -1,0 +1,18 @@
+# Node / build
+node_modules/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config
+.env
+.env.local
+
+# WordPress uploads (usually not in Git)
+wp-content/uploads/
